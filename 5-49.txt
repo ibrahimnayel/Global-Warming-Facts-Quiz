@@ -1,0 +1,90 @@
+#include <stdio.h>
+
+int main() 
+{
+    
+    
+  int ans1, ans2, ans3, ans4, ans5;
+  int points;
+    printf("global warming quizz: lets start \n  ");
+    
+    
+    printf("Which of the following is the biggest cause of global warming?  \n");
+    printf("1-) Decomposing plants  \n");
+    printf("2-) Burning oil, gas and coal  \n");
+    printf("3-) Natural variation of the planet  \n");
+    printf("4-) Pollution from wildfires \n ");
+    printf("guess ");
+    scanf("%d",&ans1);
+    
+    switch (ans1) {
+    case 1: printf("true "); points+=1;
+    break;
+    default: printf("wrong !");
+    
+    }  
+
+   printf("What is the main greenhouse gas can cause global warming? \n ");
+    printf("1-) Oxygen  \n");
+    printf("2-) Nitrogen  \n");
+    printf("3-) Carbon Dioxide  \n");
+    printf("4-) sulpher \n ");
+    
+     printf("guess ");
+    scanf("%d",&ans2);
+     switch (ans2) {
+    case 1: printf("true "); points+=1;
+    break;
+    default: printf("wrong !"); }
+  
+    printf(" What is used to heat homes and cars that causes global warming?  \n ");
+    printf("1-) Fossil Fuels  \n");
+    printf("2-) Gold \n ");
+    printf("3-) Silver  \n");
+    printf("4-) iron  \n"); 
+    
+     printf("guess ");
+    scanf("%d",&ans3);
+
+ switch (ans3) {
+    case 1: printf("true "); points+=1;
+    break;
+    default: printf("wrong !"); }
+    
+    printf("   When was carbon dioxide at its lowest.  \n ");
+    printf("1-) 2013 \n ");
+    printf("2-) 2020  \n");
+    printf("3-) 1779  \n");
+    printf("4-) 1860  \n");
+     printf("guess ");
+    scanf("%d",&ans4);
+    
+     switch (ans4) {
+    case 1: printf("true  "); points+=1;
+    break;
+    default: printf("wrong !");}
+    
+    printf("   What is the major cause of global warming  \n ");
+    printf("1-) Human activity \n ");
+    printf("2-) Change in the sun \n");
+    printf("3-) Change in the earths core \n ");
+    printf("4-) greenhouse \n ");
+     printf("guess ");
+    scanf("%d",&ans5);
+    
+     switch (ans5) {
+    case 1: printf("true "); points+=1;
+    break;
+    default: printf("wrong !"); }
+    
+         printf(" \n  ur total points is  %d" , points);
+    if (points ==5)
+    { printf(" \n Excellent "); }
+    else if (points ==4){printf(" \n very good "); }
+    else {printf("\n time to brush up on ur khnowledge of global worming "); }
+    
+       printf(" \n https://www.proprofs.com/quiz-school/story.php?title=ntkxodmw \n https://www.youtube.com/watch?v=tjd8fQw5HTA ");
+}
+ 
+   
+    
